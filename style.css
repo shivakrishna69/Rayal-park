@@ -1,0 +1,174 @@
+/*
+section{
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+*/
+
+section.hero{
+    background-image: url(images/banner.png) ;
+    background-size: cover;
+    height: 700px;
+}
+
+
+h1{
+    font-family:  'Times New Roman', Times, serif;
+}
+
+h1.text-dark{
+    font-size: 63px;
+    font-weight: 600;
+}
+.img-thumb{
+    position: absolute;
+    width: 450px;
+    left: 250px;
+    margin-top: 40px;
+    border-radius: 10px;
+    opacity: 30%;
+}
+.img-thumb-1{
+    position: absolute;
+    width: 450px;
+    left: 150px;
+    margin-top: 100px;
+    border-radius: 10px;
+}
+
+section.container-2{
+    height: 700px;
+}
+
+section.herosection{
+    height: 600px;
+}
+
+.col-lg-6.container{
+    border: 2px solid blue;
+    backdrop-filter:  blur(20px) ;
+    padding: 10px;
+    margin-top: -35px;
+    margin-left: -5px;  
+}
+
+.col-lg-3.abs{
+    border-right: solid 2px grey !important;
+    
+}
+
+.container.mb-5{
+   
+    display: flex;
+    justify-content: space-between;
+}
+
+.container.cards{
+    display: flex;
+    justify-content: space-evenly;
+}
+.col-lg-6{
+    position: relative;
+}
+.col-lg-6.position-absolute.bottom-0.start-0{
+    backdrop-filter: blur(3px);
+    border-radius: 10px;
+    margin-left: 13px;
+}
+
+.card-thumb{
+    border-radius: 50%;
+    width:130px;
+    height: 100px;
+}
+
+h1.text-center{
+    font-family: sans-serif;
+}
+
+p.fs-4.text-center{
+    font-family: 'Times New Roman', Times, serif;
+}
+button.btn.btn-primary.button {
+    position: absolute;
+    left: 67%;
+    margin-top: -68px;
+    width: 10%;
+}
+
+button.btn{
+    width: 150px;
+    height: 50px;
+    transition: width 2s;
+
+
+}
+
+button.btn:hover{
+    width: 180px;
+    color: rgb(122, 176, 179);
+    background-color: transparent !important;
+    border: blue solid 1px;
+    font-size: 20px;
+    transition: 1.5s;
+    
+
+}
+h1.text-center.h1,h1.fs-3{
+    animation: lefttoright 2s infinite linear;   
+    transition: 1s linear;
+
+}
+
+@keyframes lefttoright{
+    from{
+        transform: translateX(50px);
+        color: blue;
+    }
+    to{
+            transform: translate(0px);
+            color: red;
+    }
+}
+
+h1.heading{
+    animation: color 2s infinite linear;
+    font-size: 60px;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+@keyframes color{
+    from{
+        color: blue;
+        
+    }
+    to{
+        color:rgb(142, 24, 134);
+    }
+}
+
+a.nav-link{
+    color: black;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+a.nav-link:hover{
+    color: blue;
+    transform: translateY(-10px);
+    font-size: 20px;
+    font-weight: 600;
+    text-decoration: underline 2px blue;
+    text-underline-offset: 8px;
+    transition: 0.4s linear;
+}
+
+h3.text{
+    color: rgb(67, 64, 64);
+}
+
+h3.text:hover{
+    color: blue;
+    transition: 1s linear;
+}
